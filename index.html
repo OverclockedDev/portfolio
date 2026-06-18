@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jobayed Hossain — Software Engineer</title>
+<meta name="description" content="Portfolio of Jobayed Hossain, CSE graduate and full-stack developer specializing in the MERN stack, Go, and competitive programming.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">JOBAYED<span class="dot">.</span>DEV</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <div>
+      <div class="hero-kicker"><span class="pulse"></span> Open to junior software engineering roles</div>
+      <h1>Building backend systems, <span class="accent">one logical move</span> at a time.</h1>
+      <p class="lede">
+        I'm Jobayed Hossain, a final-year Computer Science &amp; Engineering graduate from UITS, Dhaka.
+        I build full-stack applications with the MERN stack and Go, and I've spent the last three years
+        sharpening problem-solving instincts through competitive programming.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects →</a>
+        <a href="mailto:jobayedhossain1070@gmail.com" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="num"><span>5</span>+</div>
+          <div class="label">Team Projects Led</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span>3</span>yr</div>
+          <div class="label">Competitive Programming</div>
+        </div>
+        <div class="stat">
+          <div class="num"><span>50</span>+</div>
+          <div class="label">Participants Organized</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="board-wrap" role="img" aria-label="Othello board illustration referencing a past project">
+      <div class="board" id="othelloBoard"></div>
+    </div>
+  </section>
+
+  <!-- ============ STACK STRIP ============ -->
+  <div class="stack-strip">
+    <div class="stack-track" aria-hidden="true">
+      <span>REACT</span><span class="hi">NODE.JS</span><span>EXPRESS</span><span class="hi">MONGODB</span>
+      <span>GO</span><span class="hi">POSTGRESQL</span><span>PYTHON</span><span class="hi">JAVASCRIPT</span>
+      <span>C / C++</span><span class="hi">JAVA</span><span>GIT</span><span class="hi">DOCKER-READY</span>
+      <span>REACT</span><span class="hi">NODE.JS</span><span>EXPRESS</span><span class="hi">MONGODB</span>
+      <span>GO</span><span class="hi">POSTGRESQL</span><span>PYTHON</span><span class="hi">JAVASCRIPT</span>
+      <span>C / C++</span><span class="hi">JAVA</span><span>GIT</span><span class="hi">DOCKER-READY</span>
+    </div>
+  </div>
+
+  <!--ABOUT-->
+  <section id="about" class="wrap">
+    <div class="coord"><span class="coord-label">Section</span> A1 — About</div>
+    <div class="about-grid">
+      <div>
+        <p>
+          I'm a <strong>fresh CSE graduate from the University of Information Technology and Sciences (UITS)</strong>,
+          with a foundation built on data structures, operating systems, and database design — and a habit of
+          actually shipping what I learn. My work spans the full stack: REST APIs in Go and Node.js, relational
+          and document databases, and React front ends that don't feel like an afterthought.
+        </p>
+        <p>
+          Outside of coursework, I've spent three years in <strong>competitive programming</strong>, which is
+          where most of my instincts about clean logic and edge cases come from. I also organize: as Senior
+          Executive of the UITS Computer Club's Competitive Programming wing, I helped run contests for more
+          than 50 participants, and earlier coordinated inter-university esports tournaments as part of the
+          Esports wing.
+        </p>
+        <p>
+          I care about <strong>clean, secure code</strong> — JWT and bcrypt aren't just buzzwords on my resume,
+          they're how I think about authentication by default — and about building things that are actually
+          finished, not just demoed.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="when">FEB 2025 – MAY 2025</div>
+          <div class="role">Senior Executive, UITS Computer Club — CP Wing</div>
+          <div class="desc">Organized and supervised programming competitions engaging 50+ participants.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="when">JAN 2024 – MAY 2024</div>
+          <div class="role">Executive, UITS Computer Club — Esports Wing</div>
+          <div class="desc">Coordinated inter-university esports tournaments, handling scheduling and logistics.</div>
+        </div>
+        <div class="timeline-item">
+          <div class="when">2022 – 2026</div>
+          <div class="role">B.Sc. in Computer Science &amp; Engineering, UITS</div>
+          <div class="desc">Coursework in DSA, Operating Systems, OOP, DBMS, and Software Engineering.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="wrap">
+    <div class="coord"><span class="coord-label">Section</span> B2 — Projects</div>
+    <div class="section-head">
+      <h2>Things I've built end to end</h2>
+      <p>Three projects, three different problems — a production-style web app, a classic AI game, and a backend service built for speed.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-coord">PROJECT / 01</span>
+          <span class="status-pill">Shipped</span>
+        </div>
+        <h3>One-Click Solution</h3>
+        <p class="desc">
+          A full MERN-stack web application with secure JWT-based authentication and bcrypt password hashing,
+          plus a complete REST API covering create, read, update, and delete operations.
+        </p>
+        <div class="tag-row">
+          <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+        </div>
+        <a href="https://github.com/OverclockedDev/One_Click_Solution">
+          <span class="project-link">View source code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </span>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-coord">PROJECT / 02</span>
+          <span class="status-pill">Shipped</span>
+        </div>
+        <h3>Othello Game</h3>
+        <p class="desc">
+          A two-player abstract strategy game on a classic 8×8 board with 64 reversible disks, with AI move
+          prediction powered by the Minimax algorithm.
+        </p>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Minimax AI</span>
+        </div>
+        <a href="https://github.com/OverclockedDev/Py-Game-Othello.git">
+          <span class="project-link">View source code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </span>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-top">
+          <span class="project-coord">PROJECT / 03</span>
+          <span class="status-pill">Shipped</span>
+        </div>
+        <h3>E-Commerce Backend</h3>
+        <p class="desc">
+          A scalable backend API built in Go for efficient, high-throughput RESTful communication, backed by
+          PostgreSQL and tested through Postman.
+        </p>
+        <div class="tag-row">
+          <span class="tag">Go</span><span class="tag">PostgreSQL</span><span class="tag">Postman</span>
+        </div>
+        <a href="https://github.com/OverclockedDev/E-Commerce.git">
+          <span class="project-link">View source code
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </span>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="wrap">
+    <div class="coord"><span class="coord-label">Section</span> C3 — Skills</div>
+    <div class="section-head">
+      <h2>Tools of the trade</h2>
+      <p>What I reach for, organized by what it's for rather than how impressive it sounds.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-row">
+        <span class="cat">Languages</span>
+        <div class="skill-pills">
+          <span class="skill-pill">C / C++</span><span class="skill-pill">Go</span><span class="skill-pill">Python</span>
+          <span class="skill-pill">Java</span><span class="skill-pill">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <span class="cat">Frameworks &amp; Libraries</span>
+        <div class="skill-pills">
+          <span class="skill-pill">React</span><span class="skill-pill">Tailwind CSS</span><span class="skill-pill">Bootstrap</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <span class="cat">Databases</span>
+        <div class="skill-pills">
+          <span class="skill-pill">PostgreSQL (Supabase)</span><span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">MySQL</span><span class="skill-pill">SQL</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <span class="cat">Tools</span>
+        <div class="skill-pills">
+          <span class="skill-pill">Git</span><span class="skill-pill">GitHub</span><span class="skill-pill">Postman</span>
+          <span class="skill-pill">Jira</span><span class="skill-pill">Obsidian</span><span class="skill-pill">Notion</span><span class="skill-pill">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION + CERTS ============ -->
+  <section id="education" class="wrap">
+    <div class="coord"><span class="coord-label">Section</span> D4 — Education</div>
+    <div class="split-grid">
+      <div>
+        <div class="col-label">Education</div>
+
+        <div class="edu-item">
+          <div class="school">University of Information Technology and Sciences (UITS)</div>
+          <div class="deg">B.Sc. in Computer Science &amp; Engineering — Vatara, Dhaka</div>
+          <div class="when">MARCH 2022 – JAN 2026</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="school">Dr. Mahabubur Rahman Molla College</div>
+          <div class="deg">Higher Secondary Certificate (HSC) — Demra, Dhaka</div>
+          <div class="when">JUNE 2018 – FEB 2020</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="school">Motijheel Model School and College</div>
+          <div class="deg">Secondary School Certificate (SSC) — Motijheel, Dhaka</div>
+          <div class="when">JAN 2013 – FEB 2018</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="col-label">Certifications &amp; Activities</div>
+
+        <div class="cert-item">
+          <div class="name">Go (Basic)</div>
+          <div class="issuer">HackerRank — Basic language features: syntax, control structures, standard library usage</div>
+          <div class="when">OCT 2025</div>
+        </div>
+
+        <div class="cert-item">
+          <div class="name">Problem Solving (Basic)</div>
+          <div class="issuer">HackerRank — Fundamental problem-solving in any language</div>
+          <div class="when">HACKERRANK.COM</div>
+        </div>
+
+        <div class="cert-item">
+          <div class="name">Symposium on Information Science &amp; Engineering (SISE)</div>
+          <div class="issuer">UITS — Presented Capstone project poster in IEEE conference format</div>
+          <div class="when">CONFERENCE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="wrap contact-section">
+    <div class="coord"><span class="coord-label">Section</span> E5 — Contact</div>
+    <div class="section-head">
+      <h2>Let's build something</h2>
+      <p>I'm looking for junior software engineering roles where I can keep learning fast. Reach out any of these ways.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a href="mailto:jobayedhossain1070@gmail.com" class="contact-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4V4z"/><path d="M22 6l-10 7L2 6"/></svg>
+        <div class="ctype">Email</div>
+        <div class="cval">jobayedhossain1070@gmail.com</div>
+      </a>
+      <a href="https://github.com/OverclockedDev" target="_blank" rel="noopener" class="contact-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 5.77 5.07 5.07 0 0 0 19.91 1.5s-1.05-.29-3.36 1.46a12.38 12.38 0 0 0-6.1 0C8.14 1.21 7.09 1.5 7.09 1.5A5.07 5.07 0 0 0 7 5.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 11 19.13V23"/></svg>
+        <div class="ctype">GitHub</div>
+        <div class="cval">github.com/OverclockedDev</div>
+      </a>
+      <a href="https://linkedin.com/in/jobayed-hossain70" target="_blank" rel="noopener" class="contact-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        <div class="ctype">LinkedIn</div>
+        <div class="cval">linkedin.com/in/jobayed-hossain70</div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>BUILT BY JOBAYED HOSSAIN <span class="amber">·</span> DHAKA, BANGLADESH <span class="amber">·</span> <span id="year"></span></p>
+  </div>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Build the Othello board: classic starting position plus a couple of extra
+  // moves, with the most recent move highlighted — a nod to the Minimax project.
+  (function buildBoard(){
+    const board = document.getElementById('othelloBoard');
+    const size = 8;
+    // 0 = empty, 1 = dark, 2 = light
+    const layout = Array.from({length:size}, () => Array(size).fill(0));
+    layout[3][3] = 2; layout[3][4] = 1;
+    layout[4][3] = 1; layout[4][4] = 2;
+    layout[2][4] = 1; layout[2][3] = 1; // a couple extra moves for visual interest
+    layout[5][4] = 2;
+    const lastMove = {r:2, c:4};
+
+    for(let r=0;r<size;r++){
+      for(let c=0;c<size;c++){
+        const cell = document.createElement('div');
+        cell.className = 'cell';
+        if(layout[r][c] !== 0){
+          const disk = document.createElement('div');
+          disk.className = 'disk ' + (layout[r][c] === 1 ? 'dark' : 'light');
+          if(r === lastMove.r && c === lastMove.c) disk.classList.add('last');
+          cell.appendChild(disk);
+        }
+        board.appendChild(cell);
+      }
+    }
+  })();
+</script>
+
+</body>
+</html>
